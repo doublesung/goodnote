@@ -106,8 +106,14 @@
         </ul>
       </div>
     </div>
-    <div class="sidebar-footer p-2">
-      <p class="fs-6 text-center m-0 text-nowrap">僅供學習用途</p>
+    <div class="sidebar-footer p-2 d-flex flex-column align-items-center">
+      <a 
+        class="text-decoration-none fs-4 text-white" 
+        href="https://github.com/doublesung/goodnote"
+      >
+        <i class="ri-github-fill"></i>
+      </a>
+      <p class="fs-6 m-0 text-nowrap">© 2023 Goodnote</p>
     </div>
   </div>
   <div v-show="!isShowSidebar" class="h-100">
