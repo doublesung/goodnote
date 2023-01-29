@@ -657,7 +657,6 @@ export default {
         const { itemId } = props.notebook
         const storageRef = stRef(storage, `files/${itemId}/${newId}/${file.name}`)
 
-        // 'file' comes from the Blob or File API
         uploadBytes(storageRef, file).then(() => {
           console.log('Uploaded a blob or file!')
         })
